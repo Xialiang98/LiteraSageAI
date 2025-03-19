@@ -44,7 +44,7 @@
 
 1. 克隆本仓库：
    ```
-   git clone [仓库地址]
+   git clone https://github.com/Xialiang98/LiteraSageAI.git
    cd LiteraSageAI
    ```
 
