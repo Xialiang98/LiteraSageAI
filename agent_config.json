@@ -1,0 +1,61 @@
+{
+    "api": {
+        "deepseek_key": "",
+        "deepseek_base_url": "https://api.deepseek.com",
+        "model": "deepseek-chat",
+        "models": {
+            "DeepSeek-V3": "deepseek-chat",
+            "DeepSeek-R1": "deepseek-reasoner"
+        }
+    },
+    "agents": [
+        {
+            "name": "文学专家",
+            "description": "专注于文学性、修辞手法和格调，擅长提升文章的文学价值和艺术性。",
+            "color": "blue"
+        },
+        {
+            "name": "语言优化师",
+            "description": "专注于语法、词汇选择和句式优化，擅长提高语言表达的准确性和多样性。",
+            "color": "green"
+        },
+        {
+            "name": "结构分析师",
+            "description": "专注于文章结构、段落组织和逻辑连贯性，擅长优化文章的整体结构和逻辑流。",
+            "color": "orange"
+        },
+        {
+            "name": "风格塑造师",
+            "description": "专注于文体风格、语调和情感表达，擅长塑造特定的文章风格和调性。",
+            "color": "purple"
+        },
+        {
+            "name": "综合评审员",
+            "description": "负责整合各个专家的建议并做最终决策，擅长平衡各方观点形成最优方案。",
+            "color": "red"
+        }
+    ],
+    "max_rounds": 3,
+    "mechanical_words": [
+        "总而言之",
+        "总之",
+        "因此",
+        "故而",
+        "所以",
+        "换句话说",
+        "诚然",
+        "显而易见",
+        "毫无疑问",
+        "众所周知",
+        "不言而喻",
+        "事实上",
+        "实际上",
+        "客观上",
+        "主观上",
+        "可以说",
+        "说到底",
+        "归根结底",
+        "说白了",
+        "简而言之"
+    ]
+}
